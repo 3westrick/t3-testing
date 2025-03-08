@@ -9,7 +9,7 @@ export function TopNav() {
         <div className="flex w-full items-center justify-between p-4 text-xl font-semibold border-b">
             <div>Gallery</div>
             <div>
-                <SignedOut>
+                {/* <SignedOut>
                     <SignInButton />
                     <SignUpButton />
                 </SignedOut>
@@ -18,7 +18,7 @@ export function TopNav() {
                     endpoint="imageUpload" 
                         onClientUploadComplete={() => router.refresh()}/>
                     <UserButton />
-                </SignedIn>
+                </SignedIn> */}
             </div>
         </div>
     )
